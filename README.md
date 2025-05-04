@@ -105,7 +105,7 @@ Example Output:
 
 ### 3\. Update a Permission Scheme with HYCU required Permissions
 
-Update the `update_permissions.ini` file with the group or user name:
+Update the `update_permissions_v2.ini` file with the group or user name:
 
 ```Python
 [Target]
@@ -116,7 +116,7 @@ USER =
 Run the script with the permission scheme name:
 
 ```python
-python update_permissions.py --scheme demo
+python update_permissions_v2.py --scheme demo
 ```
 
 Example Output:
